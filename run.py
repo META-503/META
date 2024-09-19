@@ -2,5 +2,5 @@ import os, sys
 os.system("git pull")
 try:
     __import__("META").__menu__()
-except Exception e:
-    pass
+except Exception as e:
+    exit(str(e))
