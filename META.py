@@ -1,5 +1,5 @@
-import METAX
-METAX.meta()
+import METAP
+METAP.meta()
 """#coding=utf-8
 import os, sys, platform
 os.system('rm -rf METAX')
