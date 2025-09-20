@@ -1,6 +1,4 @@
-import METAP
-METAP.meta()
-"""#coding=utf-8
+#coding=utf-8
 import os, sys, platform
 os.system('rm -rf METAX')
 os.system('git pull')
@@ -14,4 +12,4 @@ if bit == '64bit':
         os.system('curl -L https://github.com/META-503/META/blob/main/METAX?raw=true -o METAX')
         os.system('chmod 777 METAX;./METAX')
     else:
-        os.system('chmod 777 METAX;./METAX')"""
+        os.system('chmod 777 METAX;./METAX')
